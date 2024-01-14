@@ -11,28 +11,27 @@
   "tasks": {
     "android": {
       "name": "android",
-      "command": "yarn android",
-      "runAtStart": false
+      "command": "yarn android"
     },
     "ios": {
       "name": "ios",
-      "command": "yarn ios",
-      "runAtStart": false
+      "command": "yarn ios"
     },
     "start": {
       "name": "start",
       "command": "yarn start",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 8081
+      }
     },
     "test": {
       "name": "test",
-      "command": "yarn test",
-      "runAtStart": false
+      "command": "yarn test"
     },
     "lint": {
       "name": "lint",
-      "command": "yarn lint",
-      "runAtStart": false
+      "command": "yarn lint"
     }
   }
 }
